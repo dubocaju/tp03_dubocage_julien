@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'tp02_dubocage_julien'`, () => {
+  it(`should have as title 'tp03_dubocage_julien'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tp02_dubocage_julien');
+    expect(app.title).toEqual('tp03_dubocage_julien');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('tp02_dubocage_julien app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('tp03_dubocage_julien app is running!');
   });
 });
